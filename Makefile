@@ -1,5 +1,5 @@
 install-dev: 
-        cd /var/www/php-docker/web
+        cd /var/www/php-docker/web;
 	composer.phar
 	./composer.phar install
 	ln --symbolic --no-dereference --force config-dev config
