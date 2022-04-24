@@ -8,7 +8,8 @@
         "psr-4": { 
               "Service\\": "src/Service",
               "Entity\\": "src/Entity",
-              "Negotiation\\": "src/Negotiation" 
+              "Negotiation\\": "src/Negotiation", 
+              "Views\\": "src/Views"
                }
     }
 

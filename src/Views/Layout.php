@@ -1,7 +1,7 @@
 <?php
 
 namespace Views;
-
+ini_set('display_errors', 1);
 class Layout
 {
     protected $title;
