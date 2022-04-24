@@ -2,6 +2,8 @@
 
 namespace Service;
 
+require __DIR__ . '/../../vendor/autoload.php';
+
 use PDO;
 use Entity\Tweet;
 
