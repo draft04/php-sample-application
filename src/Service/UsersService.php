@@ -1,6 +1,9 @@
 <?php
-
 namespace Service;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+//namespace Service;
 
 use Entity\User;
 use PDO;
