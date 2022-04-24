@@ -3,4 +3,11 @@
         "willdurand/negotiation": "^2.2",
         "twbs/bootstrap": "^3.3"
     }
+    
+    "autoload": {
+    "psr-4": {
+        "ProjectRoot\\" : "", 
+        "NamspaceInSourceDir\\" : "src/"         
+    }
+ }
 }
