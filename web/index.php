@@ -1,6 +1,7 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
 
+require __DIR__ . '/vendor/autoload.php';
+ini_set('display_errors', 1);
 $lastJoinedUsers = (require "dic/users.php")->getLastJoined();
 
 switch (require "dic/negotiated_format.php") {
